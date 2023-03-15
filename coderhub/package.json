@@ -1,0 +1,23 @@
+{
+  "name": "coderhub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
